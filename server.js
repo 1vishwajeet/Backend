@@ -14,5 +14,5 @@ require('./src/routes/auth.route')(app);
 // });                                                                                 
 
 
-
-app.listen(PORT,()=>console.log(`App running on ${PORT}`));
+app.listen(PORT,()=>console.log('Server in running'));
+//app.listen(PORT,()=>console.log(`App running on ${PORT}`));
